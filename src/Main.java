@@ -706,5 +706,23 @@ public class Main {
 //        System.out.println(maxByGroup);
 // Output: {Even=30, Odd=25}
 
+        String input = "programming";
+//
+//        Optional<Character> ans=input.chars()
+//                .mapToObj(i->(char)i)
+//                .collect(Collectors.groupingBy(
+//                        Function.identity(),
+//                        LinkedHashMap::new,
+//                        Collectors.counting()
+//                ))
+//                .entrySet().stream()
+//                .filter(e->e.getValue()==1)
+//                .map(Map.Entry::getKey)
+//                .findFirst();
+//
+//
+//        ans.ifPresent(System.out::println);
+
+
     }
 }
