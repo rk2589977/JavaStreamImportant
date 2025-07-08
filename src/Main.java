@@ -41,6 +41,8 @@ public class Main {
         Map<String,Integer> ans=list.stream().collect(Collectors.toMap(x->x,x->(Integer)x.length()));
         System.out.println(ans);
 
+        Ans: {rahul=5, mohit=5, krishna=7, rohit=5}
+
 
 //        Map<Integer, List<String>> mapGrouped = list.stream()
 //                .collect(Collectors.groupingBy(String::length));
