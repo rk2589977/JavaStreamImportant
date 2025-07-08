@@ -38,6 +38,9 @@ public class Main {
 //        Map<String,Integer> mapList=list.stream().collect(Collectors.toMap(Function.identity(),String::length));
 //        System.out.println(mapList);
 
+        Map<String,Integer> ans=list.stream().collect(Collectors.toMap(x->x,x->(Integer)x.length()));
+        System.out.println(ans);
+
 
 //        Map<Integer, List<String>> mapGrouped = list.stream()
 //                .collect(Collectors.groupingBy(String::length));
